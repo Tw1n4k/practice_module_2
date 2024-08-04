@@ -61,7 +61,7 @@ while game_over == False:
             symbol = 'O'
             step = int(input('Игрок 2, ваш ход: '))
 
-        step_maps(step, symbol) # делаем ход в указанную ячейку
+        step_maps(step, symbol) # Делаем ход в указанную ячейку
         winner = check_winner() # Определяем победителя
         if check_winner() == 'X':
             game_over = True
