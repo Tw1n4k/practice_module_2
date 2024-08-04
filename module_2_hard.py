@@ -6,6 +6,3 @@ def pass_(number):
                 pass_ += str(i) + str(j)
     return pass_
 print(pass_(int((input('Введите число')))))
-
-
-
